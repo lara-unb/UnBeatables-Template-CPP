@@ -6,14 +6,9 @@
 
 using namespace std;
 
-int main(int argc, char* argv[]) {
+int main() {
 
-    if (argc < 2) {
-        cerr << "Usage: " << argv[0] << " <NAO_IP>" << endl;
-        return 1;
-    }
-
-    const string NAO_IP = argv[1];
+    const string NAO_IP = "120.0.0.1";
     const int NAO_PORT = 9559;
 
     try {
