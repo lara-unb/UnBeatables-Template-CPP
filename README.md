@@ -22,3 +22,13 @@ sudo apt install curl
 curl https://raw.githubusercontent.com/lara-unb/UnBeatables-Template-CPP/refs/heads/main/instalador.sh | sh
 rm instalador.sh 
 ```
+
+---
+
+O instalador também cria um atalho chamado **naopy** para executar scripts python no ambiente virtual correto.
+
+> Exemplo de uso:
+
+```bash
+naopy main.py
+```
