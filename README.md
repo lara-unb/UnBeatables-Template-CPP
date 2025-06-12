@@ -35,7 +35,7 @@ naopy main.py
 > main.py
 
 ```python
- -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 
 from naoqi import ALProxy
 
