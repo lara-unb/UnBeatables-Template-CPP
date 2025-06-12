@@ -1,7 +1,6 @@
 #include <alcommon/albroker.h>
 #include <alproxies/almotionproxy.h>
 #include <alproxies/altexttospeechproxy.h>
-#include <alproxies/alledsproxy.h>
 #include <iostream>
 
 using namespace std;
@@ -24,11 +23,11 @@ int main() {
         AL::ALTextToSpeechProxy tts(NAO_IP, NAO_PORT);
         AL::ALMotionProxy motion(NAO_IP, NAO_PORT);
 
-		motion.wakeUp();
+	motion.wakeUp();
 
         tts.say("Olá UnBeatables");
 
-		motion.rest();
+	motion.rest();
     }
     catch (const exception& e) {
         cerr << "Erro: " << e.what() << endl;
