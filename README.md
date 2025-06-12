@@ -32,3 +32,17 @@ O instalador também cria um atalho chamado **naopy** para executar scripts pyth
 ```bash
 naopy main.py
 ```
+> main.py
+
+```python
+ -*- coding: utf-8 -*-
+
+from naoqi import ALProxy
+
+NAO_IP = "120.0.0.2"
+NAO_PORT = 9559
+
+tts = ALProxy("ALTextToSpeech", NAO_IP, NAO_PORT)
+
+tts.say("Olá UnBeatables")
+```
