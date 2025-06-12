@@ -20,4 +20,5 @@ Para instalar todo o setup de desenvolvimento simplesmente cole esse comando no 
 ```bash
 sudo apt install curl
 curl https://raw.githubusercontent.com/lara-unb/UnBeatables-Template-CPP/refs/heads/main/instalador.sh | sh
+rm instalador.sh 
 ```
